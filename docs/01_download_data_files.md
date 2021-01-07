@@ -6,4 +6,4 @@ The [LSSTDESC Data Portal](https://lsstdesc-portal.nersc.gov/) allows anyone to 
 
 To get started click Login to authenticate into Globus using your organizational login or existing GlobusID. If needed, create a GlobusID using the "Sign Up" link.
 
-Once authentiated with Globus, users may transfer either whole directories or individual files.
+Once authenticated with Globus, users may transfer either whole directories or individual files.
