@@ -1,6 +1,6 @@
-# Downloading Data
+## Downloading Data
 
-## LSSTDESC Data Portal
+### LSSTDESC Data Portal
 
 The [LSSTDESC Data Portal](https://lsstdesc-portal.nersc.gov/) allows anyone to transfer the DC2 Public Release data using Globus.   
 
