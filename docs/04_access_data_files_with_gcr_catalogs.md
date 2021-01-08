@@ -1,6 +1,6 @@
 ## Access Data Files with GCRCatalogs
 
-### Setting up root_dir for GCRCatalogs
+### Setting up `root_dir` for GCRCatalogs
 
 After you [downloaded the data files](01_download_data_files.md) and [installed `GCRCatalogs`](03_install_gcr_catalogs.md),
 you need to tell `GCRCatalogs` where these downloaded files sit on your machine. 
@@ -16,6 +16,17 @@ If you have moved it, you should change `/path/to/the/download/directory` to the
 Do not change the directory structure within `lsstdesc-public`. 
 
 You only need to set this once. 
+
+### Checking that everything is ready
+
+You can use the following Python code to check if you have `GCRCatalogs` installed and `root_dir` correctly set.
+The lower two lines should print out the tracts that you have downloaded for Object and Truth tables, respectively.
+
+```python
+import GCRCatalogs
+GCRCatalogs.load_catalog('desc_dc2_run2.2i_dr6_object').available_tracts
+GCRCatalogs.load_catalog('desc_dc2_run2.2i_dr6_truth').available_tracts
+```
 
 ### Following the notebooks to access data
 
