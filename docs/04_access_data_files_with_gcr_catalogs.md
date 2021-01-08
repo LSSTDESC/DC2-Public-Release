@@ -24,8 +24,8 @@ The lower two lines should print out the tracts that you have downloaded for Obj
 
 ```python
 import GCRCatalogs
-GCRCatalogs.load_catalog('desc_dc2_run2.2i_dr6_object').available_tracts
-GCRCatalogs.load_catalog('desc_dc2_run2.2i_dr6_truth').available_tracts
+print(GCRCatalogs.load_catalog('desc_dc2_run2.2i_dr6_object').available_tracts)
+print(GCRCatalogs.load_catalog('desc_dc2_run2.2i_dr6_truth').available_tracts)
 ```
 
 ### Following the notebooks to access data
