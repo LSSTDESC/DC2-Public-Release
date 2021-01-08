@@ -22,5 +22,5 @@ If you do, [see instructions here](https://docs.python.org/3/library/venv.html).
 To install, simply run
 
 ```base
-pip https://github.com/LSSTDESC/gcr-catalogs/archive/v1.2.0rc1.tar.gz
+pip install https://github.com/LSSTDESC/gcr-catalogs/archive/v1.2.0rc1.tar.gz
 ```
