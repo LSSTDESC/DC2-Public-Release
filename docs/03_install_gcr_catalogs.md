@@ -10,7 +10,7 @@ If you do, [see instructions here](https://docs.conda.io/projects/conda/en/lates
 
 To install, simply run
 
-```base
+```bash
 conda install lsstdesc-gcr-catalogs -c conda-forge
 ```
 
@@ -21,6 +21,6 @@ If you do, [see instructions here](https://docs.python.org/3/library/venv.html).
 
 To install, simply run
 
-```base
+```bash
 pip install https://github.com/LSSTDESC/gcr-catalogs/archive/v1.2.0rc1.tar.gz
 ```
