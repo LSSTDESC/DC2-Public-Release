@@ -11,7 +11,7 @@ If you do, [see instructions here](https://docs.conda.io/projects/conda/en/lates
 To install, simply run
 
 ```bash
-conda install lsstdesc-gcr-catalogs -c conda-forge
+conda install lsstdesc-gcr-catalogs -c conda-forge/label/lsstdesc-gcr-catalogs_rc
 ```
 
 ### Install with pip
@@ -22,5 +22,5 @@ If you do, [see instructions here](https://docs.python.org/3/library/venv.html).
 To install, simply run
 
 ```bash
-pip install https://github.com/LSSTDESC/gcr-catalogs/archive/v1.2.0rc1.tar.gz#egg=GCRCatalogs[full]
+pip install https://github.com/LSSTDESC/gcr-catalogs/archive/v1.2.0rc2.tar.gz#egg=GCRCatalogs[full]
 ```
